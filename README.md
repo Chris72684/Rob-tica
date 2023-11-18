@@ -1,2 +1,2 @@
-# Rob-tica
+# Robotica
 Codigos de robotica en ROS
