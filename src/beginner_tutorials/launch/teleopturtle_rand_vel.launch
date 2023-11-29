@@ -1,0 +1,13 @@
+<launch>
+    <arg name="teleop" default="false" />
+    <arg name="random" default="false" />
+    <node
+        name = "turtlesim" pkg = "turtlesim" type = "turtlesim_node"
+        />
+    <node 
+        if="$(arg teleop)" pkg="turtlesim" type="turtle_teleop_key" name="teleop_key" launch-prefix="xterm -e" 
+        />
+    <node 
+        if="$(arg random)" pkg="beginner_tutorials" type="pubvel" name="rand"
+        />
+</launch>
