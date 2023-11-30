@@ -504,7 +504,7 @@ learning_tf2_BINARY_DIR:STATIC=/home/ubunturos/catkin_ws/build/learning_tf2-mast
 learning_tf2_SOURCE_DIR:STATIC=/home/ubunturos/catkin_ws/src/learning_tf2-master
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librosconsole_bridge.so
+lib:FILEPATH=/opt/ros/noetic/lib/libmessage_filters.so
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/noetic/share/map_msgs/cmake
@@ -604,6 +604,18 @@ turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/noetic/share/urdf/cmake
+
+//Value Computed by CMake
+urdf_tutorial_BINARY_DIR:STATIC=/home/ubunturos/catkin_ws/build/urdf_tutorial-master
+
+//Value Computed by CMake
+urdf_tutorial_SOURCE_DIR:STATIC=/home/ubunturos/catkin_ws/src/urdf_tutorial-master
+
+//Value Computed by CMake
+urdf_tutorial_upc_BINARY_DIR:STATIC=/home/ubunturos/catkin_ws/build/urdf_tutorial-master
+
+//Value Computed by CMake
+urdf_tutorial_upc_SOURCE_DIR:STATIC=/home/ubunturos/catkin_ws/src/urdf_tutorial-master
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/noetic/share/visualization_msgs/cmake
@@ -762,7 +774,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ubunturos/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
   include("/home/ubunturos/catkin_ws/build/message_tests/cmake_install.cmake")
   include("/home/ubunturos/catkin_ws/build/mastering_ros_robot_description_pkg-master/cmake_install.cmake")
+  include("/home/ubunturos/catkin_ws/build/urdf_tutorial-master/cmake_install.cmake")
 
 endif()
 
